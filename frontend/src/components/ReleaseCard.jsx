@@ -39,3 +39,5 @@ const ReleaseCard = ({ release }) => {
     </div>
   );
 };
+
+export default ReleaseCard;
