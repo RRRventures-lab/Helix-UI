@@ -14,17 +14,18 @@ const Home = () => {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-32 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-9xl font-black text-blue-600 mb-8 tracking-wider">
+      <section className="py-24 px-6">
+        <div className="max-w-7xl mx-auto text-center relative">
+          <h1 className="text-8xl lg:text-9xl font-black text-blue-600 mb-8 tracking-wider leading-none" style={{
+            fontFamily: 'Impact, "Arial Black", sans-serif',
+            textShadow: '2px 2px 0px rgba(37, 99, 235, 0.3)'
+          }}>
             HELIX RECORDS
           </h1>
-          <div className="flex justify-end pr-16">
-            <div className="flex flex-col space-y-2">
-              <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-              <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-              <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-            </div>
+          <div className="absolute top-1/2 right-8 flex flex-col space-y-3">
+            <div className="w-4 h-4 bg-blue-600 rounded-full animate-pulse"></div>
+            <div className="w-4 h-4 bg-blue-600 rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+            <div className="w-4 h-4 bg-blue-600 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
           </div>
         </div>
       </section>
