@@ -10,13 +10,13 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 flex items-center justify-center">
               <svg 
-                viewBox="0 0 24 24" 
-                className="w-8 h-8 text-white transform rotate-45"
+                viewBox="0 0 100 100" 
+                className="w-10 h-10 text-blue-600"
                 fill="currentColor"
               >
-                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" />
+                <path d="M50 10 L60 35 L85 35 L65 55 L75 80 L50 65 L25 80 L35 55 L15 35 L40 35 Z" />
               </svg>
             </div>
           </Link>
