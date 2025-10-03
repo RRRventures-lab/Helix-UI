@@ -351,18 +351,10 @@ metadata:
   test_sequence: 1
 
 test_plan:
-  current_focus:
-    - "Homepage - Large HELIX RECORDS title display"
-    - "Homepage - Star logo in header visibility and clickability"
-    - "Navigation menu functionality (Home, Releases, About, Merch)"
-    - "Recent Releases section with album grid display"
-    - "Album covers clickable with Spotify links opening in new tabs"
-    - "Load More button functionality for additional releases"
-    - "Releases page search functionality"
-    - "Responsive design and mobile navigation"
+  current_focus: []
   stuck_tasks: []
-  test_all: true
-  test_priority: "high_first"
+  test_all: false
+  test_priority: "completed"
 
 agent_communication:
     - agent: "testing"
